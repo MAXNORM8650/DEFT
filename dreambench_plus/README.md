@@ -1,73 +1,72 @@
-data_path = /nvme-data/Komal/documents/omni_datasets/dreambench_plus_data
+# DEFT training and evaluation on [DreamBench++](https://github.com/yuangpeng/dreambench_plus)
+## Overview
 
-conda activate scale
-export HF_HOME=/nvme-data/Komal/huggingface/
-export TEMPDIR=/nvme-data/Komal/home/tmp/
-cd ~/Documents/Komal/PolicyGen/OmniGen/submodules/dreambench_plus/
+DreamBench++ establishes a fair and comprehensive benchmark for personalized image generation, addressing the limitations of existing evaluation frameworks through:
 
-python generate_models.py \
---method dreambooth_sd \
---start 0 --end 150
+- **150 diverse reference images** across live subjects, objects, and artistic styles
+- **1,350 carefully curated prompts** with varying complexity levels
+- **Human-aligned evaluation metrics** powered by multimodal large language models
+- **Automated evaluation pipeline** for consistent and scalable assessment
 
-## Generate sample for testing
-CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.run --nproc_per_node=2 --nnodes=1 --master_port 29501 generate_images.py --method dreambooth_lora_sdxl --use_default_params True --db_or_ti_output_dir /home/mbzuaiser/Documents/Komal/PolicyGen/OmniGen/submodules/dreambench_plus/work_dirs/dreambench_plus/dreambooth_deft_sdxl
-## Check running sessions 
-ps aux | grep python
+## Key Features
 
+### Dataset Composition
+- **Live Subjects**: 60 images (40 humans, 20 animals)  
+- **Objects**: 60 images (everyday items, vehicles, etc.)
+- **Artistic Styles**: 30 images (paintings, sketches, etc.)
+- **Prompt Diversity**: 9 prompts per image across difficulty levels
+  - 4 photorealistic style prompts
+  - 3 non-photorealistic style prompts  
+  - 2 complex/imaginative content prompts
 
-## Run DEFT
+### Evaluation Metrics
+- **GPT-4V Score**: Human-aligned automated evaluation
+- **DINO Score**: Identity preservation assessment
+- **CLIP-I Score**: Image similarity measurement
+- **CLIP-T Score**: Text-image alignment evaluation
 
-CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.run --nproc_per_node=2 --nnodes=1 --node_rank=0 --master_port=29501 training_scripts/train_dreambooth_deft_sdxl.py --pretrained_model_name_or_path="stabilityai/stable-diffusion-xl-base-1.0"  --instance_data_dir="/nvme-data/Komal/documents/omni_datasets/dreambench_plus_data/samples/blip_diffusion_gs7_5_step100_seed42_torch_float16/src_image/live_subject_animal_00_kitten" --pretrained_vae_model_name_or_path="madebyollin/sdxl-vae-fp16-fix" --output_dir="work_dirs/dreambench_plus/testing/onlysample" --mixed_precision="fp16" --instance_prompt="a photo of kitten" --resolution=1024 --train_batch_size=2 --gradient_accumulation_steps=1 --learning_rate=1e-4 --lr_scheduler="constant" --lr_warmup_steps=0 --max_train_steps=5 --validation_epochs=99999 --seed=42
+## Quick Start
 
+### Prerequisites
 
-## MAybe DEFT
+```bash
+# Create and activate conda environment (Recommnaded)
+conda create -n dreambench python=3.9
+conda activate dreambench
 
-CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.run --nproc_per_node=2 --nnodes=1 --node_rank=0 --master_port=29501 training_scripts/train_dreambooth_deft_sdxl.py \
---pretrained_model_name_or_path="stabilityai/stable-diffusion-xl-base-1.0"  \
---instance_data_dir="/nvme-data/Komal/documents/omni_datasets/dreambench_plus_data/samples/blip_diffusion_gs7_5_step100_seed42_torch_float16/src_image/live_subject_animal_00_kitten" \
---pretrained_vae_model_name_or_path="madebyollin/sdxl-vae-fp16-fix" \
---output_dir="work_dirs/dreambench_plus/testing/onlysample" \
---mixed_precision="fp16" \
---instance_prompt="a photo of kitten" \
---resolution=1024 \
---train_batch_size=2 \
---gradient_accumulation_steps=1 \
---learning_rate=1e-4 \
---lr_scheduler="constant" \
---lr_warmup_steps=0 \
---max_train_steps=5 \
---validation_epochs=99999 \
---seed=42
+# Clone repository
+cd dreambench_plus
 
-<div align="center">
+# Install package
+pip install -e .
+```
 
-# <a href="https://dreambenchplus.github.io">DreamBench++: A Human-Aligned Benchmark for Personalized Image Generation</a>
-### ICLR 2025
+### Configuration
 
-[Yuang Peng](https://yuangpeng.com/), [Yuxin Cui](https://scholar.google.com/citations?user=kQucB04AAAAJ), [Haomiao Tang](https://github.com/tanghme0w), [Zekun Qi](https://qizekun.github.io), [Runpei Dong](https://runpeidong.web.illinois.edu), [Jing Bai](https://github.com/joan-moon), [Chunrui Han](https://scholar.google.com/citations?user=D6tWz44AAAAJ), [Zheng Ge](https://scholar.google.com/citations?user=hJ-VrrIAAAAJ), [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ) and [Shu-tao Xia](https://scholar.google.com/citations?user=koAXTXgAAAAJ)
+Before running experiments, configure your settings:
 
-[Project Page](https://dreambenchplus.github.io/) | [Arxiv](https://arxiv.org/abs/2406.16855) | [Benchmark](https://paperswithcode.com/task/personalized-image-generation) | [HuggingFace](https://huggingface.co/datasets/yuangpeng/dreambench_plus)
+```bash
+# Set data path in your environment or config
+export DREAMBENCH_DATA_PATH="path/to/your/dreambench_plus_data"
 
-<img src="assets/poster.png" width="100%">
+# For GPT evaluation, set your OpenAI API key
+export OPENAI_API_KEY="your-api-key-here"
+```
 
-</div>
+### Basic Usage
 
-DreamBench++ builds a fair benchmark for personalized image generation.
+#### 1. Download Dataset
 
-- We collected 150 diverse images and 1350 prompts containing simple, stylized, and imaginative content.
-- We use multimodal large language models (e.g., GPT4o) to construct automated evaluation metrics aligned with human preferences.
+```bash
+# Option 1: Google Drive
+wget -O dreambench_plus_data.zip "https://drive.google.com/uc?id=17HNVYU5yvuHDC6VhesJsWsXo1UWy_CSs"
+unzip dreambench_plus_data.zip
 
-## Dataset
+# Option 2: HuggingFace
+git lfs clone https://huggingface.co/datasets/yuangpeng/dreambench_plus
+```
 
-![Data distribution visualization.](assets/data_dist.png)
-
-The image above shows the visualization of data distribution. (a) Images comparison between DreamBench and DreamBench++ using t-SNE. (b) Image and prompt distribution of DreamBench++.
-
-DreamBench++ contains three categories: live subject (animals and humans), object, and style, with a total of 150 images. Among them, 120 images are photorealistic and 30 are non-photorealistic. Each image has 9 corresponding prompts, each with varying levels of difficulty, including 4 prompts for photorealistic styles, 3 for non-photorealistic styles, and 2 for complicated and imaginative content.
-
-Most of these pictures come from the author's own collection, [unsplash](www.unsplash.com), [rawpixel](https://www.rawpixel.com), and [Google Image Search](https://images.google.com). **Each image’s copyright status has been verified for academic suitability.**
-
-You can download the dataset from [Google Drive](https://drive.google.com/file/d/17HNVYU5yvuHDC6VhesJsWsXo1UWy_CSs/view?usp=share_link) or [HuggingFace](https://huggingface.co/datasets/yuangpeng/dreambench_plus). After downloading the dataset, you can preview the dataset in the following ways:
+#### 2. Preview Dataset
 
 ```bash
 pip install streamlit
@@ -75,131 +74,119 @@ cd data
 streamlit run preview.py
 ```
 
-## Data
-| Data |
-| --- |
-| [DreamBench++ Evaluation Dataset](https://drive.google.com/file/d/17HNVYU5yvuHDC6VhesJsWsXo1UWy_CSs/view?usp=share_link) |
-| [Full Samples with 7 mehtods](https://drive.google.com/file/d/177GVdYtf0eAOpJO1F4pnoIB87TdVfw4R/view?usp=sharing) |
-| [human rating data](https://drive.google.com/file/d/17FK9wHsKxTdIBo8_JkDCa3mU8-VJ3yLj/view?usp=share_link) |
-| [GPT rating data](https://drive.google.com/file/d/17E-GShOwvFWWVNCCbU323I8FfyfmbbNV/view?usp=share_link) |
-| [DINO rating data](https://drive.google.com/file/d/1WK71LFCGuPitB8ZNgQVz4A6C89tltX4J/view?usp=sharing) |
-| [CLIP-I rating data](https://drive.google.com/file/d/1iaFUcYiBnMf-VaZ-4VhFZhLL9_NDKQ1b/view?usp=sharing) |
-| [CLIP-T rating data](https://drive.google.com/file/d/1QN7UjKBuTmU-LtOzsCVjSBA3uoKQFghc/view?usp=sharing) |
+#### 3. Generate Images
 
-## Get Started
-
-### Step 1. Installation
-
-Install necessary packages:
+For methods requiring fine-tuning (DreamBooth, Textual Inversion):
 
 ```bash
-git clone https://github.com/yuangpeng/dreambench_plus.git
-cd dreambench_plus
-pip install -e .
+# Train models on all 150 samples
+python generate_models.py --method dreambooth_sd --start 0 --end 150
+
+# Or train on a subset for testing
+python generate_models.py --method dreambooth_sd --start 0 --end 10
 ```
 
-### Step 2. Generate Images
-
-(Optional) If you want to evaluate DreamBooth or Textual Inversion, you first need to train on the DreamBench++ sample.
+Generate images with your chosen method:
 
 ```bash
-python dreambench_plus/generate_models.py \
---method dreambooth_sd \
---start 0 --end 150
+# Single GPU
+python generate_images.py \
+    --method blip_diffusion \
+    --use_default_params True
+
+# Multi-GPU (recommended for faster inference)
+torchrun --nproc-per-node=8 generate_images.py \
+    --method blip_diffusion \
+    --use_default_params True
+
+# With custom output directory
+torchrun --nproc-per-node=8 generate_images.py \
+    --method dreambooth_lora_sdxl \
+    --db_or_ti_output_dir work_dirs/dreambench_plus/dreambooth_deft_sdxl \
+    --use_default_params True
 ```
 
-Then you can run the following command to generate images If you evaluate DreamBooth or Textual Inversion, you need to specify `--db_or_ti_output_dir` to the output directory of the models trained above.
+#### 4. Evaluate Results
+
+**DINO and CLIP Scores:**
+```bash
+torchrun --nproc-per-node=8 eval_clip_and_dino.py \
+    --dir samples/blip_diffusion_gs7_5_step100_seed42_torch_float16
+```
+
+**GPT-4V Evaluation:**
+```bash
+# Concept preservation
+python eval_gpt.py \
+    --method "DreamBooth LoRA SDXL" \
+    --out_dir data_gpt_rating/concept_preservation_full/dreambooth_lora_sdxl \
+    --category subject \
+    --ablation_settings full
+
+# Prompt following  
+python eval_gpt.py \
+    --method "DreamBooth LoRA SDXL" \
+    --out_dir data_gpt_rating/prompt_following_full/dreambooth_lora_sdxl \
+    --ablation_settings full
+```
+
+**Generate Final Benchmark Report:**
+```bash
+python benchmarking.py
+```
+
+### Batch Processing Scripts
+
+Create efficient batch processing with our provided templates:
 
 ```bash
-torchrun dreambench_plus/generate_images.py \
---method blip_diffusion \
---use_default_params True
+# Process multiple methods
+bash scripts/batch_generate.sh
+
+# Evaluate multiple experiments
+bash scripts/batch_evaluate.sh
 ```
 
-You can also use other hyperparameters for inference. All parameter lists can be queried through `torchrun dreambench_plus/generate_images.py --help`.
+### Training Custom Models
 
-We support multi-GPU parallel inference. For example, you can use the following command to use a single-node with 8 gpus for accelerated inference. For more usage, please refer to the [torchrun documentation](https://pytorch.org/docs/stable/elastic/run.html).
+For DEFT
 
 ```bash
-torchrun --nproc-per-node=8 dreambench_plus/generate_images.py \
---method blip_diffusion \
---use_default_params True
+CUDA_VISIBLE_DEVICES=0,1 torchrun \
+    --nproc-per-node=2 \
+    --master_port=29501 \
+    training_scripts/train_dreambooth_deft_sdxl.py \
+    --pretrained_model_name_or_path="stabilityai/stable-diffusion-xl-base-1.0" \
+    --instance_data_dir="$DREAMBENCH_DATA_PATH/samples/.../src_image/live_subject_animal_00_kitten" \
+    --pretrained_vae_model_name_or_path="madebyollin/sdxl-vae-fp16-fix" \
+    --output_dir="work_dirs/dreambench_plus/deft_training" \
+    --mixed_precision="fp16" \
+    --instance_prompt="a photo of kitten" \
+    --resolution=1024 \
+    --train_batch_size=2 \
+    --gradient_accumulation_steps=1 \
+    --learning_rate=1e-4 \
+    --lr_scheduler="constant" \
+    --max_train_steps=500 \
+    --validation_epochs=50 \
+    --seed=42
 ```
 
-Output images will be organized in the following structure:
+## Output Structure
 
-```shell
-samples
-└── blip_diffusion_gs7_5_step100_seed42_torch_float16
-    ├── src_image
-    │   ├──live_subject_animal_00_kitten
-    │   │   ├── 0_0.jpg
-    │   │   ├── 0_1.jpg
-    │   │   ├── ...
-    │   ├── ...
-    ├── text
-    │   ├── live_subject_animal_00_kitten
-    │   │   ├── 0_0.txt
-    │   │   ├── 0_1.txt
-    │   │   ├── ...
-    │   ├── ...
-    ├── tgt_image
-    │   ├── live_subject_animal_00_kitten
-    │   │   ├── 0_0.jpg
-    │   │   ├── 0_1.jpg
-    │   │   ├── ...
-    │   ├── ...
-    ├── negative_prompt.txt
+Generated samples follow this organized structure:
+
 ```
-
-### Step 3. Get DINO and CLIP Score
-
-You can evaluate the generated images using DINO and CLIP. You can run the following command to evaluate the generated images. The `--dir` parameter specifies the directory of the generated images. The `--nproc-per-node` parameter specifies the number of GPUs used for evaluation.
-
-```bash
-torchrun --nproc-per-node=8 dreambench_plus/eval_clip_and_dino.py --dir samples/blip_diffusion_gs7_5_step100_seed42_torch_float16
-```
-
-### Step 4. Get GPT Score
-
-First, you need to write the directory of the method and the corresponding generated image into `METHODS` in `dreambench_plus/constants.py`, and fill in your openai api key
-
-Then you can run the following command to evaluate the generated images using GPT. For evaluations of concept preservation, you need to specify `--category` to utilize a different prompt for evaluation. For prompt following evaluations, there is no such parameter.
-
-```bash
-python --method "DreamBooth LoRA SDXL" \
---out_dir data_gpt_rating/concept_preservation_full/dreambooth_lora_sdxl \
---category subject \
---ablation_settings full
-```
-
-After running the above command, you can obtain the GPT score results in the `out_dir` directory. Then you can get the final score by running the following command:
-
-```bash
-python dreambench_plus/benchmarking.py
-```
-
-### Step 5. Get Paper Results
-
-To reproduce the results in the paper, please download the [human rating data](https://drive.google.com/file/d/17FK9wHsKxTdIBo8_JkDCa3mU8-VJ3yLj/view?usp=share_link) and [GPT rating data](https://drive.google.com/file/d/17E-GShOwvFWWVNCCbU323I8FfyfmbbNV/view?usp=share_link) from Google Drive and unzip them.
-
-You can run the following command to obtain the experimental results (GPT Score and Krippendorff Analysis) in the paper:
-
-```bash
-python dreambench_plus/benchmarking.py
-python dreambench_plus/krippendorff_analysis.py
-```
-
-## Citation
-
-If you find DreamBench++ useful for your research and applications, please cite using this BibTeX:
-
-```bibtex
-@inproceedings{peng2024dreambench,
-    author={Yuang Peng and Yuxin Cui and Haomiao Tang and Zekun Qi and Runpei Dong and Jing Bai and Chunrui Han and Zheng Ge and Xiangyu Zhang and Shu-Tao Xia},
-    title={DreamBench++: A Human-Aligned Benchmark for Personalized Image Generation},
-    booktitle={The Thirteenth International Conference on Learning Representations},
-    year={2025},
-    url={https://dreambenchplus.github.io/},
-}
+samples/
+└── {method_name}_{parameters}/
+    ├── src_image/           # Reference images
+    │   └── {category}_{id}_{name}/
+    │       ├── 0_0.jpg     # Generated image for prompt 0, sample 0
+    │       └── ...
+    ├── text/               # Corresponding prompts
+    │   └── {category}_{id}_{name}/
+    │       ├── 0_0.txt
+    │       └── ...
+    ├── tgt_image/          # Target style references (if applicable)
+    └── negative_prompt.txt # Global negative prompts
 ```
