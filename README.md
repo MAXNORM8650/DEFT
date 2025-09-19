@@ -44,7 +44,7 @@ accelerate launch --num_processes=1 finetune.py --model_name_or_path Shitao/Omni
  ```
 Please refer to [docs/fine-tuning.md](docs/fine-tuning.md) for more details (e.g. full finetune).
 ## License
-This repo is licensed under the [MIT License](LICENSE). 
+This repo is licensed under the [Apache License 2.0](LICENSE). 
 
 ## Citation
 If you find this repository useful, please consider giving a star ⭐ and citation
