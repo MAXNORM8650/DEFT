@@ -19,3 +19,17 @@ efficient fine-tuning.
 
 ## Quick strart
 ### To create enviroment please follow the [./docs/enviroment.md#enviroment-details](https://github.com/MAXNORM8650/DEFT/blob/main/docs/enviroment.md)
+
+## Adding DEFT layer to pretrained model
+```bash 
+import torch.nn as nn
+import copy
+from OmniGen import OmniGenPipeline
+from deft.deft import KnowledgeInjectionConfig, make_knowledge_injection_adapter, add_knowledge_injection_methods
+pipe = OmniGenPipeline.from_pretrained("Shitao/OmniGen-v1")
+config = KnowledgeInjectionConfig(r=16, injection_method="residual_projection", target_modules=None, use_gating=True)
+adapted_model = make_knowledge_injection_adapter(pipe.model, config)
+adapted_model = add_knowledge_injection_methods(adapted_model)
+adapted_model.save_pretrained("./knowledge_injection_adapter")
+print("Adapted model saved and loaded successfully!")
+```
