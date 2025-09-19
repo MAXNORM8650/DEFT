@@ -1,0 +1,158 @@
+{"task_type": "text_to_image", "instruction": "a sks backpack in the jungle", "input_images": [], "output_image": "backpack/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks backpack in the snow", "input_images": [], "output_image": "backpack/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks backpack on the beach", "input_images": [], "output_image": "backpack/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks backpack on a cobblestone street", "input_images": [], "output_image": "backpack/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks backpack on top of pink fabric", "input_images": [], "output_image": "backpack/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks backpack on top of a wooden floor", "input_images": [], "output_image": "backpack/05.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks backpack in the jungle", "input_images": [], "output_image": "backpack_dog/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks backpack in the snow", "input_images": [], "output_image": "backpack_dog/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks backpack on the beach", "input_images": [], "output_image": "backpack_dog/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks backpack on a cobblestone street", "input_images": [], "output_image": "backpack_dog/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks backpack on top of pink fabric", "input_images": [], "output_image": "backpack_dog/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal in the jungle", "input_images": [], "output_image": "bear_plushie/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal in the snow", "input_images": [], "output_image": "bear_plushie/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal on the beach", "input_images": [], "output_image": "bear_plushie/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal on a cobblestone street", "input_images": [], "output_image": "bear_plushie/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal on top of pink fabric", "input_images": [], "output_image": "bear_plushie/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks bowl in the jungle", "input_images": [], "output_image": "berry_bowl/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks bowl in the snow", "input_images": [], "output_image": "berry_bowl/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks bowl on the beach", "input_images": [], "output_image": "berry_bowl/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks bowl on a cobblestone street", "input_images": [], "output_image": "berry_bowl/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks bowl on top of pink fabric", "input_images": [], "output_image": "berry_bowl/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks bowl on top of a wooden floor", "input_images": [], "output_image": "berry_bowl/05.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks can in the jungle", "input_images": [], "output_image": "can/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks can in the snow", "input_images": [], "output_image": "can/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks can on the beach", "input_images": [], "output_image": "can/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks can on a cobblestone street", "input_images": [], "output_image": "can/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks can on top of pink fabric", "input_images": [], "output_image": "can/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks can on top of a wooden floor", "input_images": [], "output_image": "can/05.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks candle in the jungle", "input_images": [], "output_image": "candle/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks candle in the snow", "input_images": [], "output_image": "candle/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks candle on the beach", "input_images": [], "output_image": "candle/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks candle on a cobblestone street", "input_images": [], "output_image": "candle/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks candle on top of pink fabric", "input_images": [], "output_image": "candle/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cat in the jungle", "input_images": [], "output_image": "cat/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cat in the snow", "input_images": [], "output_image": "cat/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cat on the beach", "input_images": [], "output_image": "cat/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cat on a cobblestone street", "input_images": [], "output_image": "cat/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cat on top of pink fabric", "input_images": [], "output_image": "cat/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cat in the jungle", "input_images": [], "output_image": "cat2/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cat in the snow", "input_images": [], "output_image": "cat2/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cat on the beach", "input_images": [], "output_image": "cat2/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cat on a cobblestone street", "input_images": [], "output_image": "cat2/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cat on top of pink fabric", "input_images": [], "output_image": "cat2/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks clock in the jungle", "input_images": [], "output_image": "clock/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks clock in the snow", "input_images": [], "output_image": "clock/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks clock on the beach", "input_images": [], "output_image": "clock/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks clock on a cobblestone street", "input_images": [], "output_image": "clock/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks clock on top of pink fabric", "input_images": [], "output_image": "clock/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks clock on top of a wooden floor", "input_images": [], "output_image": "clock/05.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks sneaker in the jungle", "input_images": [], "output_image": "colorful_sneaker/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks sneaker in the snow", "input_images": [], "output_image": "colorful_sneaker/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks sneaker on the beach", "input_images": [], "output_image": "colorful_sneaker/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks sneaker on a cobblestone street", "input_images": [], "output_image": "colorful_sneaker/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks sneaker on top of pink fabric", "input_images": [], "output_image": "colorful_sneaker/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the jungle", "input_images": [], "output_image": "dog/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the snow", "input_images": [], "output_image": "dog/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on the beach", "input_images": [], "output_image": "dog/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on a cobblestone street", "input_images": [], "output_image": "dog/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on top of pink fabric", "input_images": [], "output_image": "dog/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the jungle", "input_images": [], "output_image": "dog2/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the snow", "input_images": [], "output_image": "dog2/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on the beach", "input_images": [], "output_image": "dog2/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on a cobblestone street", "input_images": [], "output_image": "dog2/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on top of pink fabric", "input_images": [], "output_image": "dog2/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on top of a wooden floor", "input_images": [], "output_image": "dog2/05.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the jungle", "input_images": [], "output_image": "dog3/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the snow", "input_images": [], "output_image": "dog3/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on the beach", "input_images": [], "output_image": "dog3/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on a cobblestone street", "input_images": [], "output_image": "dog3/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on top of pink fabric", "input_images": [], "output_image": "dog3/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on top of a wooden floor", "input_images": [], "output_image": "dog3/05.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the jungle", "input_images": [], "output_image": "dog5/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the snow", "input_images": [], "output_image": "dog5/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on the beach", "input_images": [], "output_image": "dog5/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on a cobblestone street", "input_images": [], "output_image": "dog5/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on top of pink fabric", "input_images": [], "output_image": "dog5/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the jungle", "input_images": [], "output_image": "dog6/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the snow", "input_images": [], "output_image": "dog6/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on the beach", "input_images": [], "output_image": "dog6/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on a cobblestone street", "input_images": [], "output_image": "dog6/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on top of pink fabric", "input_images": [], "output_image": "dog6/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the jungle", "input_images": [], "output_image": "dog7/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the snow", "input_images": [], "output_image": "dog7/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on the beach", "input_images": [], "output_image": "dog7/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on a cobblestone street", "input_images": [], "output_image": "dog7/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on top of pink fabric", "input_images": [], "output_image": "dog7/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the jungle", "input_images": [], "output_image": "dog8/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog in the snow", "input_images": [], "output_image": "dog8/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on the beach", "input_images": [], "output_image": "dog8/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on a cobblestone street", "input_images": [], "output_image": "dog8/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks dog on top of pink fabric", "input_images": [], "output_image": "dog8/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy in the jungle", "input_images": [], "output_image": "duck_toy/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy in the snow", "input_images": [], "output_image": "duck_toy/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on the beach", "input_images": [], "output_image": "duck_toy/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on a cobblestone street", "input_images": [], "output_image": "duck_toy/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks boot in the jungle", "input_images": [], "output_image": "fancy_boot/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks boot in the snow", "input_images": [], "output_image": "fancy_boot/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks boot on the beach", "input_images": [], "output_image": "fancy_boot/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks boot on a cobblestone street", "input_images": [], "output_image": "fancy_boot/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks boot on top of pink fabric", "input_images": [], "output_image": "fancy_boot/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks boot on top of a wooden floor", "input_images": [], "output_image": "fancy_boot/05.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal in the jungle", "input_images": [], "output_image": "grey_sloth_plushie/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal in the snow", "input_images": [], "output_image": "grey_sloth_plushie/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal on the beach", "input_images": [], "output_image": "grey_sloth_plushie/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal on a cobblestone street", "input_images": [], "output_image": "grey_sloth_plushie/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal on top of pink fabric", "input_images": [], "output_image": "grey_sloth_plushie/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy in the jungle", "input_images": [], "output_image": "monster_toy/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy in the snow", "input_images": [], "output_image": "monster_toy/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on the beach", "input_images": [], "output_image": "monster_toy/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on a cobblestone street", "input_images": [], "output_image": "monster_toy/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on top of pink fabric", "input_images": [], "output_image": "monster_toy/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks glasses in the jungle", "input_images": [], "output_image": "pink_sunglasses/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks glasses in the snow", "input_images": [], "output_image": "pink_sunglasses/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks glasses on the beach", "input_images": [], "output_image": "pink_sunglasses/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks glasses on a cobblestone street", "input_images": [], "output_image": "pink_sunglasses/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks glasses on top of pink fabric", "input_images": [], "output_image": "pink_sunglasses/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks glasses on top of a wooden floor", "input_images": [], "output_image": "pink_sunglasses/05.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy in the jungle", "input_images": [], "output_image": "poop_emoji/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy in the snow", "input_images": [], "output_image": "poop_emoji/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on the beach", "input_images": [], "output_image": "poop_emoji/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on a cobblestone street", "input_images": [], "output_image": "poop_emoji/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on top of pink fabric", "input_images": [], "output_image": "poop_emoji/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy in the jungle", "input_images": [], "output_image": "rc_car/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy in the snow", "input_images": [], "output_image": "rc_car/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on the beach", "input_images": [], "output_image": "rc_car/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on a cobblestone street", "input_images": [], "output_image": "rc_car/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on top of pink fabric", "input_images": [], "output_image": "rc_car/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cartoon in the jungle", "input_images": [], "output_image": "red_cartoon/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cartoon in the snow", "input_images": [], "output_image": "red_cartoon/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cartoon on the beach", "input_images": [], "output_image": "red_cartoon/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks cartoon on a cobblestone street", "input_images": [], "output_image": "red_cartoon/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy in the jungle", "input_images": [], "output_image": "robot_toy/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy in the snow", "input_images": [], "output_image": "robot_toy/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on the beach", "input_images": [], "output_image": "robot_toy/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on a cobblestone street", "input_images": [], "output_image": "robot_toy/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks toy on top of pink fabric", "input_images": [], "output_image": "robot_toy/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks sneaker in the jungle", "input_images": [], "output_image": "shiny_sneaker/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks sneaker in the snow", "input_images": [], "output_image": "shiny_sneaker/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks sneaker on the beach", "input_images": [], "output_image": "shiny_sneaker/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks sneaker on a cobblestone street", "input_images": [], "output_image": "shiny_sneaker/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks sneaker on top of pink fabric", "input_images": [], "output_image": "shiny_sneaker/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks sneaker on top of a wooden floor", "input_images": [], "output_image": "shiny_sneaker/05.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks teapot in the jungle", "input_images": [], "output_image": "teapot/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks teapot in the snow", "input_images": [], "output_image": "teapot/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks teapot on the beach", "input_images": [], "output_image": "teapot/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks teapot on a cobblestone street", "input_images": [], "output_image": "teapot/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks teapot on top of pink fabric", "input_images": [], "output_image": "teapot/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks vase in the jungle", "input_images": [], "output_image": "vase/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks vase in the snow", "input_images": [], "output_image": "vase/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks vase on the beach", "input_images": [], "output_image": "vase/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks vase on a cobblestone street", "input_images": [], "output_image": "vase/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks vase on top of pink fabric", "input_images": [], "output_image": "vase/04.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks vase on top of a wooden floor", "input_images": [], "output_image": "vase/05.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal in the jungle", "input_images": [], "output_image": "wolf_plushie/00.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal in the snow", "input_images": [], "output_image": "wolf_plushie/01.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal on the beach", "input_images": [], "output_image": "wolf_plushie/02.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal on a cobblestone street", "input_images": [], "output_image": "wolf_plushie/03.jpg"}
+{"task_type": "text_to_image", "instruction": "a sks stuffed animal on top of pink fabric", "input_images": [], "output_image": "wolf_plushie/04.jpg"}

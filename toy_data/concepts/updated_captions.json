@@ -1,0 +1,950 @@
+[
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a woman with a backpack looking up at the sky",
+        "input_images": [],
+        "output_image": "backpack/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a woman wearing a backpack and looking up at the sky",
+        "input_images": [],
+        "output_image": "backpack/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a backpack sitting on top of a rock",
+        "input_images": [],
+        "output_image": "backpack/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a red backpack sitting on the ground in the woods",
+        "input_images": [],
+        "output_image": "backpack/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a red backpack sitting on a tree branch",
+        "input_images": [],
+        "output_image": "backpack/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a red backpack hanging on a tree branch",
+        "input_images": [],
+        "output_image": "backpack/05.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a stuffed dog backpack sitting on a window ledge",
+        "input_images": [],
+        "output_image": "backpack_dog/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a stuffed dog head on a window sie",
+        "input_images": [],
+        "output_image": "backpack_dog/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog shaped backpack sitting on a table",
+        "input_images": [],
+        "output_image": "backpack_dog/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog shaped backpack hanging on a fence",
+        "input_images": [],
+        "output_image": "backpack_dog/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog shaped backpack sitting in the grass",
+        "input_images": [],
+        "output_image": "backpack_dog/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a teddy bear sitting on a rock in a park",
+        "input_images": [],
+        "output_image": "bear_plushie/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a teddy bear sitting on a rock by the water",
+        "input_images": [],
+        "output_image": "bear_plushie/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a teddy bear sitting on the side of the road",
+        "input_images": [],
+        "output_image": "bear_plushie/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a teddy bear sitting in the grass",
+        "input_images": [],
+        "output_image": "bear_plushie/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a teddy bear sitting on the ground",
+        "input_images": [],
+        "output_image": "bear_plushie/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a bowl of blueberries with the words ' be fresh ' written on it",
+        "input_images": [],
+        "output_image": "berry_bowl/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a bowl filled with blueberries and a gold foil lettering",
+        "input_images": [],
+        "output_image": "berry_bowl/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a bowl of blueberries with the words ' apr ' written on it",
+        "input_images": [],
+        "output_image": "berry_bowl/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a white bowl filled with blueberries and a gold lettering that says, ' be api '",
+        "input_images": [],
+        "output_image": "berry_bowl/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a bowl of blueberries with the word be api on it",
+        "input_images": [],
+        "output_image": "berry_bowl/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a bowl of blueberries on a white blanket",
+        "input_images": [],
+        "output_image": "berry_bowl/05.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a can of beer sitting on a stone ledge",
+        "input_images": [],
+        "output_image": "can/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a can of transac beer sitting on a rock",
+        "input_images": [],
+        "output_image": "can/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a can of beer sitting on a frozen surface",
+        "input_images": [],
+        "output_image": "can/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a can of beer sitting on a table",
+        "input_images": [],
+        "output_image": "can/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a glass of beer next to a can of beer",
+        "input_images": [],
+        "output_image": "can/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a glass of beer",
+        "input_images": [],
+        "output_image": "can/05.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a white jar on top of a rock",
+        "input_images": [],
+        "output_image": "candle/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a jar of cream sitting on a green table",
+        "input_images": [],
+        "output_image": "candle/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a jar of cream sitting on the grass",
+        "input_images": [],
+        "output_image": "candle/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a jar of cream sitting in the grass",
+        "input_images": [],
+        "output_image": "candle/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a small jar of white candle with a wooden lid",
+        "input_images": [],
+        "output_image": "candle/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a cat sitting in the grass in the sun",
+        "input_images": [],
+        "output_image": "cat/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a cat sitting on the ground in the grass",
+        "input_images": [],
+        "output_image": "cat/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a cat sitting on the ground in the woods",
+        "input_images": [],
+        "output_image": "cat/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a cat sitting on the ground in the woods",
+        "input_images": [],
+        "output_image": "cat/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a cat sitting on the ground looking at the camera",
+        "input_images": [],
+        "output_image": "cat/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a gray cat with a green eye staring",
+        "input_images": [],
+        "output_image": "cat2/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a cat laying on the floor with a mouse mouse",
+        "input_images": [],
+        "output_image": "cat2/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a gray cat laying on a bed",
+        "input_images": [],
+        "output_image": "cat2/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a gray cat sitting on a white shelf",
+        "input_images": [],
+        "output_image": "cat2/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a cat laying on a blanket by a window",
+        "input_images": [],
+        "output_image": "cat2/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a person holding a clock in their hand",
+        "input_images": [],
+        "output_image": "clock/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a person holding a clock in their hand",
+        "input_images": [],
+        "output_image": "clock/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a yellow alarm clock sitting on top of a bed",
+        "input_images": [],
+        "output_image": "clock/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a yellow alarm clock sitting on top of a white sheet",
+        "input_images": [],
+        "output_image": "clock/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of an alarm clock on a yellow blanket",
+        "input_images": [],
+        "output_image": "clock/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a yellow alarm clock on a white sheet",
+        "input_images": [],
+        "output_image": "clock/05.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of sneakers sitting on the edge of a river",
+        "input_images": [],
+        "output_image": "colorful_sneaker/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of shoes on the ground",
+        "input_images": [],
+        "output_image": "colorful_sneaker/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of shoes sitting on top of a green field",
+        "input_images": [],
+        "output_image": "colorful_sneaker/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of shoes is sitting on a green bench",
+        "input_images": [],
+        "output_image": "colorful_sneaker/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of sneakers sitting on the ground",
+        "input_images": [],
+        "output_image": "colorful_sneaker/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog with its tongue out and its tongue out",
+        "input_images": [],
+        "output_image": "dog/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog is standing on a rock with its tongue out",
+        "input_images": [],
+        "output_image": "dog/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog sitting on a ledge with its tongue out",
+        "input_images": [],
+        "output_image": "dog/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog sitting on top of a cement wall",
+        "input_images": [],
+        "output_image": "dog/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog with a long coat and a white face",
+        "input_images": [],
+        "output_image": "dog/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a chow chow chow chow chow chow chow chow chow chow chow chow chow chow chow chow chow chow",
+        "input_images": [],
+        "output_image": "dog2/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog with a long coat laying on a moss covered ground",
+        "input_images": [],
+        "output_image": "dog2/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a chow chow chow chow chow chow chow chow chow chow chow chow chow chow chow chow chow chow",
+        "input_images": [],
+        "output_image": "dog2/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog with a sad look on its face",
+        "input_images": [],
+        "output_image": "dog2/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a chow chow chow chow chow chow chow chow chow chow chow chow chow chow chow chow chow chow",
+        "input_images": [],
+        "output_image": "dog2/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a small dog standing in the grass with leaves",
+        "input_images": [],
+        "output_image": "dog2/05.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a small white dog standing on the ground",
+        "input_images": [],
+        "output_image": "dog3/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog sitting on top of a rocky hill",
+        "input_images": [],
+        "output_image": "dog3/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a small white dog standing on a rocky beach",
+        "input_images": [],
+        "output_image": "dog3/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a white dog standing on a rock",
+        "input_images": [],
+        "output_image": "dog3/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog standing on the beach next to the water",
+        "input_images": [],
+        "output_image": "dog3/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a small white dog sitting on top of a bed",
+        "input_images": [],
+        "output_image": "dog3/05.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog laying on a couch with a blanket",
+        "input_images": [],
+        "output_image": "dog5/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog laying on a couch with a blanket",
+        "input_images": [],
+        "output_image": "dog5/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog sitting on a couch with a pillow",
+        "input_images": [],
+        "output_image": "dog5/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog laying on a couch with a pillow",
+        "input_images": [],
+        "output_image": "dog5/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog sitting on a couch under a blanket",
+        "input_images": [],
+        "output_image": "dog5/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a small dog sitting next to a green plant",
+        "input_images": [],
+        "output_image": "dog6/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a small dog sitting on a orange background",
+        "input_images": [],
+        "output_image": "dog6/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a small dog sitting on a orange background",
+        "input_images": [],
+        "output_image": "dog6/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a small dog sitting on an orange background",
+        "input_images": [],
+        "output_image": "dog6/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a small dog sitting on a yellow background",
+        "input_images": [],
+        "output_image": "dog6/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog laying on the ground in the woods",
+        "input_images": [],
+        "output_image": "dog7/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog laying on the ground with its tongue out",
+        "input_images": [],
+        "output_image": "dog7/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog standing on the beach",
+        "input_images": [],
+        "output_image": "dog7/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog running on the beach with a frc",
+        "input_images": [],
+        "output_image": "dog7/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog sitting in a field of flowers",
+        "input_images": [],
+        "output_image": "dog7/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog standing in the leaves in the woods",
+        "input_images": [],
+        "output_image": "dog8/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog sitting on the side of a road",
+        "input_images": [],
+        "output_image": "dog8/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog laying on a bed with its tongue out",
+        "input_images": [],
+        "output_image": "dog8/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog is standing in a field of flowers",
+        "input_images": [],
+        "output_image": "dog8/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a dog laying on a bed with its tongue out",
+        "input_images": [],
+        "output_image": "dog8/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a rubber duck toy",
+        "input_images": [],
+        "output_image": "duck_toy/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a rubber duck toy on a blue carpet",
+        "input_images": [],
+        "output_image": "duck_toy/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a yellow rubber duck toy sitting on a gray surface",
+        "input_images": [],
+        "output_image": "duck_toy/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a rubber duck on a rock by the water",
+        "input_images": [],
+        "output_image": "duck_toy/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of white boots with fringes on them",
+        "input_images": [],
+        "output_image": "fancy_boot/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of beige fringed boots on a ledge overlooking the water",
+        "input_images": [],
+        "output_image": "fancy_boot/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of white boots with fringes on the side",
+        "input_images": [],
+        "output_image": "fancy_boot/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of white boots with fringes on them",
+        "input_images": [],
+        "output_image": "fancy_boot/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of white fringe boots sitting on the grass",
+        "input_images": [],
+        "output_image": "fancy_boot/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of white boots sitting on a green bench",
+        "input_images": [],
+        "output_image": "fancy_boot/05.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a teddy bear sitting in the grass in front of a tree",
+        "input_images": [],
+        "output_image": "grey_sloth_plushie/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a stuffed sloty sitting on the edge of a river",
+        "input_images": [],
+        "output_image": "grey_sloth_plushie/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a teddy bear sitting in the grass",
+        "input_images": [],
+        "output_image": "grey_sloth_plushie/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a teddy bear sitting on a green bench",
+        "input_images": [],
+        "output_image": "grey_sloth_plushie/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a teddy bear sitting on the ground",
+        "input_images": [],
+        "output_image": "grey_sloth_plushie/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a stuffed red crab sitting on a window ledge",
+        "input_images": [],
+        "output_image": "monster_toy/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a stuffed red monster sitting on top of a black board",
+        "input_images": [],
+        "output_image": "monster_toy/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a stuffed red bird sitting on a window sie",
+        "input_images": [],
+        "output_image": "monster_toy/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a stuffed animal sitting on the hood of a car",
+        "input_images": [],
+        "output_image": "monster_toy/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a red stuffed animal sitting on a rock",
+        "input_images": [],
+        "output_image": "monster_toy/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of sunglasses with pink flowers on the side",
+        "input_images": [],
+        "output_image": "pink_sunglasses/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of the square frame sunglasses in rose gold",
+        "input_images": [],
+        "output_image": "pink_sunglasses/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of sunglasses on a white cloth",
+        "input_images": [],
+        "output_image": "pink_sunglasses/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of sunglasses and a book on a bed",
+        "input_images": [],
+        "output_image": "pink_sunglasses/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of sunglasses on a white cloth",
+        "input_images": [],
+        "output_image": "pink_sunglasses/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of sunglasses and a lemon on a bed",
+        "input_images": [],
+        "output_image": "pink_sunglasses/05.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a chocolate covered with googly eyes",
+        "input_images": [],
+        "output_image": "poop_emoji/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a toy sitting in the grass with eyes",
+        "input_images": [],
+        "output_image": "poop_emoji/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a brown toy sitting in the grass",
+        "input_images": [],
+        "output_image": "poop_emoji/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a toy sitting on a green bench",
+        "input_images": [],
+        "output_image": "poop_emoji/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a small toy with a big eyes and a big smile",
+        "input_images": [],
+        "output_image": "poop_emoji/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a toy car sitting on top of a cement wall",
+        "input_images": [],
+        "output_image": "rc_car/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a toy car with a pencil in it",
+        "input_images": [],
+        "output_image": "rc_car/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a toy car with a man in it",
+        "input_images": [],
+        "output_image": "rc_car/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a toy car with a man in it",
+        "input_images": [],
+        "output_image": "rc_car/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a toy car with a person in it",
+        "input_images": [],
+        "output_image": "rc_car/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a red bear with a big nose",
+        "input_images": [],
+        "output_image": "red_cartoon/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a red bear with a big eyes and a big nose",
+        "input_images": [],
+        "output_image": "red_cartoon/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a red cartoon character with a big eyes",
+        "input_images": [],
+        "output_image": "red_cartoon/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a red bear with its arms up",
+        "input_images": [],
+        "output_image": "red_cartoon/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a robot sitting on a couch with a remote control",
+        "input_images": [],
+        "output_image": "robot_toy/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a robot sitting on top of a wooden bench",
+        "input_images": [],
+        "output_image": "robot_toy/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a toy robot riding on a toy car",
+        "input_images": [],
+        "output_image": "robot_toy/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a toy robot sitting on a rock in the woods",
+        "input_images": [],
+        "output_image": "robot_toy/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a toy motorcycle sitting on a rock in the grass",
+        "input_images": [],
+        "output_image": "robot_toy/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of shoes sitting on a rock",
+        "input_images": [],
+        "output_image": "shiny_sneaker/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of shoes with a rainbow - colored sole",
+        "input_images": [],
+        "output_image": "shiny_sneaker/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of white and blue sneakers on the ground",
+        "input_images": [],
+        "output_image": "shiny_sneaker/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of shoes sitting on the grass",
+        "input_images": [],
+        "output_image": "shiny_sneaker/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of shoes sitting on a green bench",
+        "input_images": [],
+        "output_image": "shiny_sneaker/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a pair of shoes with a rainbow painted sole",
+        "input_images": [],
+        "output_image": "shiny_sneaker/05.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a tea pot and a leaf on a table",
+        "input_images": [],
+        "output_image": "teapot/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a teapot and a cup on a wooden table",
+        "input_images": [],
+        "output_image": "teapot/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a cup of tea next to a teapot",
+        "input_images": [],
+        "output_image": "teapot/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a tea pot and a cup on a table",
+        "input_images": [],
+        "output_image": "teapot/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a teapot and a cup on a table",
+        "input_images": [],
+        "output_image": "teapot/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a vase with a flower in it on a table",
+        "input_images": [],
+        "output_image": "vase/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a red vase with a small plant in it",
+        "input_images": [],
+        "output_image": "vase/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a red vase sitting on top of a white table",
+        "input_images": [],
+        "output_image": "vase/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a vase with a flower in it",
+        "input_images": [],
+        "output_image": "vase/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a vase with a flower in it on top of a book",
+        "input_images": [],
+        "output_image": "vase/04.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a vase with a flower in it and a plate",
+        "input_images": [],
+        "output_image": "vase/05.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a stuffed dog sitting on a rock in the middle of a street",
+        "input_images": [],
+        "output_image": "wolf_plushie/00.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a stuffed dog is laying in the grass",
+        "input_images": [],
+        "output_image": "wolf_plushie/01.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a stuffed dog laying in the grass next to a tree",
+        "input_images": [],
+        "output_image": "wolf_plushie/02.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a stuffed dog sitting on a green bench",
+        "input_images": [],
+        "output_image": "wolf_plushie/03.jpg"
+    },
+    {
+        "task_type": "text_to_image",
+        "instruction": "a photo of a stuffed dog laying on the ground",
+        "input_images": [],
+        "output_image": "wolf_plushie/04.jpg"
+    }
+]

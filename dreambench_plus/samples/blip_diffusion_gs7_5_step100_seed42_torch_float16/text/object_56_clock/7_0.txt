@@ -1,0 +1,1 @@
+A clock whose hands move backwards, each tick restoring an ancient ruin back to its original glory

@@ -1,0 +1,1 @@
+A ring that controls the weather, shown with clouds and lightning emanating from it
