@@ -45,13 +45,23 @@ accelerate launch --num_processes=1 finetune.py --model_name_or_path Shitao/Omni
 Please refer to [docs/fine-tuning.md](docs/fine-tuning.md) for more details (e.g. full finetune).
 ## Approch
 ![Approch](./assets/_diagram.png)
+
+## From the method, we can use different decomposition methods.
+![Decomposition methds](./assets/Decomposition.png)
+### Results on emergent properties
+![Emergent properties](./assets/Compo_edit_all_in_one.png)
 ## License
 This repo is licensed under the [Apache License 2.0](LICENSE). 
 
 ## Citation
 If you find this repository useful, please consider giving a star ⭐ and citation
 ```
-@article{komal2024deftkumar,
-
+@inproceedings{
+kumar2025emergent,
+title={Emergent Properties of Efficient Fine-Tuning in Text-to-Image Models},
+author={Komal Kumar, Rao Muhammad Anwer, Fahad Shahbaz Khan, Salman Khan, Ivan Laptev, Hisham Cholakkal},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=R9xJSk5SQ2}
 }
 ```
