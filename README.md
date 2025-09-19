@@ -42,3 +42,14 @@ accelerate launch --num_processes=1 finetune.py --model_name_or_path Shitao/Omni
  --keep_raw_resolution --max_image_size 1024 --gradient_accumulation_steps 1 --ckpt_every 100 --epochs 2000 --log_every 1 \
  --decomposition_method qr --results_dir ~/PP
  ```
+Please refer to [docs/fine-tuning.md](docs/fine-tuning.md) for more details (e.g. full finetune).
+## License
+This repo is licensed under the [MIT License](LICENSE). 
+
+## Citation
+If you find this repository useful, please consider giving a star ⭐ and citation
+```
+@article{komal2024deftkumar,
+
+}
+```
