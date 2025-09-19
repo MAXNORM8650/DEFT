@@ -1,0 +1,1 @@
+A set of geometric shapes, like circles and triangles, composed in minimalist line art

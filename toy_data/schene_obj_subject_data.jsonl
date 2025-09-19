@@ -1,0 +1,60 @@
+{
+    "task_type": "text_to_image",
+    "instruction": "The image showcases a neat arrangement of personal items on a white circular table. At the center, slightly to the right, sits a jar of peanut butter with a blue lid, labeled “Crispy Crunch,” positioned upright with its label facing forward. To the left of the jar, a transparent plastic bottle is placed at a slight angle, its opening directed toward the left side of the table. A light beige baseball-style cap rests next to the bottle, with its brim facing downward and the crown tilted slightly toward the center. To the right of the cap, a black cylindrical object, likely a drink can or bottle, stands vertically, its sleek black surface partially visible. A black comb lies horizontally on the table near the cylindrical object, its teeth pointing left. Finally, a white plastic container or case sits near the bottom-left corner, slightly askew, adding to the casual, personal feel of the scene. The soft background and warm lighting enhance the simplicity and organization of the arrangement.",
+    "input_images": [],
+    "output_image": "schene1.jpeg"
+  }
+  {
+    "task_type": "text_to_image",
+    "instruction": "The image displays an assortment of personal items neatly arranged on a white round table, creating a casual and organized scene. Towards the center, slightly to the right, there is a jar of peanut butter with a blue lid, labeled “Crispy Crunch,” positioned upright. To the left of the jar, a transparent plastic bottle is placed at an angle with its opening pointing left, next to a clear plastic container, which appears to be used for storage. A light beige cap is placed nearby, with its brim facing down and the crown slightly angled toward the table center. On the far right side, a black cylindrical object, likely a drink container, is upright with its label visible. Moving to the bottom center, a black wallet rests on the table, with a clean, compact shape. A black comb lies horizontally in the middle of the scene, near the wallet, its teeth directed to the left. To the left of the comb, a black computer mouse sits neatly, facing the viewer. In the bottom-left corner, a clear phone case is positioned flat on the table, placed gently next to the mouse. The overall arrangement is clean and thoughtfully organized, illuminated by soft lighting that enhances the light tones of the items. A green chair is slightly visible in the background, adding a pop of color.",
+    "input_images": [],
+    "output_image": "schene2.jpeg"
+  }
+  {
+    "task_type": "text_to_image",
+    "instruction": "The image features a set of personal items arranged casually on a white round table, creating a laid-back atmosphere. At the center of the image, there is a beige cap placed with its brim facing downward and the crown slightly tilted, giving the impression of a relaxed arrangement. To the left of the cap, a transparent plastic bottle is placed upright, with the liquid visible inside, and its label partially visible. To the right of the bottle, a black cylindrical drink container stands, bearing a logo and partially visible branding, positioned vertically on the table. Near the cylindrical container, a black comb lies horizontally across the table, with its teeth facing towards the left side. A jar of peanut butter sits beside the comb, its blue lid clearly visible and its label oriented toward the viewer. In the upper-right corner of the table, a clear plastic container sits with a few crumpled pieces of paper inside, its simple rectangular shape noticeable. A black computer mouse is positioned towards the bottom right of the table, neatly aligned with the container. The background is softly blurred, revealing a green chair and some casual clothing, including socks visible at the bottom of the image, adding to the informal nature of the scene. The warm lighting gives the setting a cozy, lived-in feel. ",
+    "input_images": [],
+    "output_image": "schene3.jpeg"
+  }
+  {
+    "task_type": "text_to_image",
+    "instruction": "The image shows a minimal yet organized arrangement of personal items on a white round table, highlighting a simple and casual setup. In the center, slightly to the left, is a transparent plastic bottle with a yellow cap. The bottle contains a light-colored liquid, and some residue is visible near the bottom, suggesting it may have been previously used. Next to the bottle, a jar of peanut butter with a blue lid is placed upright, positioned toward the center-right of the table. To the right of the peanut butter jar, a black cylindrical object, likely a drink container, stands vertically, with its sleek black design and branding visible. Towards the bottom-left, a black computer mouse is placed flat on the table, facing forward. Below the mouse, a purple-handled comb rests horizontally across the table, with its teeth directed left. The table surface is smooth and clean, and the background is softly blurred, giving the scene a relaxed, everyday feel. The soft lighting subtly illuminates the objects, making the arrangement appear simple yet deliberate.",
+    "input_images": [],
+    "output_image": "schene4.jpeg"
+  }
+  {
+    "task_type": "text_to_image",
+    "instruction": "The image captures a casual yet neatly arranged scene of personal items placed on a white round table. At the center, slightly to the left, a transparent plastic bottle with a yellow cap is positioned upright. The bottle contains a light-colored liquid, and some residue is visible at the bottom, indicating it has been used previously. Next to the bottle, a beige cap rests on the table, with the brim facing down and the crown slightly tilted toward the viewer. A black cylindrical object, possibly a drink container, stands to the right of the cap, with its sleek design and visible branding. To the left, a black computer mouse sits flat on the table, facing directly forward. Nearby, a purple-handled comb lies horizontally across the table, its teeth facing left. Further to the right, a jar of peanut butter with a blue lid rests upright, and next to it, a clear plastic container holds some crumpled papers. A small black phone with a simple design is placed near the top left corner of the table. The background is softly blurred, with a green chair subtly visible, enhancing the relaxed, everyday feel of the setup. Soft lighting casts a warm glow on the items, emphasizing their casual yet organized arrangement.",
+    "input_images": [],
+    "output_image": "schene5.jpeg"
+  }
+  {
+    "task_type": "text_to_image",
+    "instruction": "The image depicts a neat arrangement of personal items placed on a white round table. Towards the center, slightly to the left, there is a transparent plastic bottle of water, with its label facing forward. The bottle is capped with a blue lid and is positioned upright, with a visible water level inside. Next to the bottle, a clear plastic container is placed with some crumpled paper inside, suggesting it may have been used for temporary storage or sorting. To the right, a small black phone rests flat on the table, positioned with its screen facing up. Slightly to the right of the phone, a black computer mouse sits on the table, oriented to face the viewer. Below the mouse, a purple-handled comb lies horizontally across the table, with its teeth pointing left. In the bottom left corner, a clear phone case is placed flat on the table, positioned next to the comb. The background features a green chair, adding a soft pop of color, and the overall scene is illuminated by gentle lighting, contributing to a relaxed, everyday atmosphere.",
+    "input_images": [],
+    "output_image": "schene6.jpeg"
+  }
+  {
+    "task_type": "text_to_image",
+    "instruction": "TThe image shows a well-arranged setup of personal items placed on a white round table. In the center of the image, a clear plastic container rests with crumpled paper inside, possibly used for storage. To the right of the container, a black wallet is positioned upright, its sleek design visible. Above the wallet, a small black phone is placed flat on the table, with its screen facing up. Towards the bottom-left of the table, a black computer mouse is positioned flat, facing directly forward. Just below the mouse, a purple-handled comb lies horizontally across the table, with its teeth directed left. To the left of the comb, a clear phone case sits flat, partially visible in the bottom left corner. The background includes a green chair, subtly visible, and the soft lighting adds a warm glow to the scene, giving it an organized and relaxed atmosphere. The setup reflects a casual, everyday environment with essential personal items laid out neatly.",
+    "input_images": [],
+    "output_image": "schene7.jpeg"
+  }
+  {
+    "task_type": "text_to_image",
+    "instruction": "The image depicts a simple yet neatly arranged scene of personal items on a white round table. At the center, slightly off to the right, sits a beige cap with its brim facing down and the crown tilted slightly towards the table. It is positioned with casual precision, resting comfortably on the table surface. Next to the cap, a jar of peanut butter with a blue lid is placed upright. The label, reading “Crispy Crunch,” is visible and oriented towards the viewer. To the left of the peanut butter jar, a transparent plastic bottle stands upright, with some liquid inside and the opening facing left. The soft lighting in the scene creates a relaxed, informal atmosphere, and the background includes a green chair, adding a slight pop of color. The arrangement of these everyday items on the table feels purposeful yet casual, emphasizing a laid-back environment.",
+    "input_images": [],
+    "output_image": "schene8.jpeg"
+  }
+  {
+    "task_type": "text_to_image",
+    "instruction": "The image shows a simple and organized arrangement of personal items on a white round table. Towards the center of the image, slightly to the right, sits a jar of peanut butter with a blue lid, labeled “Crispy Crunch,” positioned upright. To the left of the peanut butter jar, a transparent plastic bottle with a yellow cap is placed, containing a light-colored liquid. The bottle is slightly tilted, with some residue visible near the bottom, indicating it has been used. In front of the bottle, a black wallet rests vertically on the table, its sleek design and zipper visible. Next to it, a clear plastic container is placed, containing some crumpled receipts or papers, with a few visible layers of paper inside. The container is slightly tilted, giving the scene a casual feel. In the bottom-left corner of the image, a purple-handled comb lies horizontally across the table, with its teeth directed to the left. The background includes a softly blurred green chair that adds a touch of color to the scene. The soft lighting creates a relaxed and informal atmosphere, with all items carefully arranged on the table.",
+    "input_images": [],
+    "output_image": "schene9.jpeg"
+  }
+  {
+    "task_type": "text_to_image",
+    "instruction": "The image presents a simple, neatly arranged set of personal items on a white round table. In the center, slightly to the right, a jar of peanut butter with a blue lid, labeled “Crispy Crunch,” sits upright. Next to it, a transparent plastic bottle with a yellow cap rests, containing a light-colored liquid. The bottle has some residue near the bottom, suggesting it was used recently. To the left of the bottle, a black wallet is placed vertically on the table, with its sleek zipper and smooth black leather visible. Just in front of the wallet, a clear plastic container is positioned, containing some crumpled paper, such as receipts, giving the scene a slightly disorganized feel. In the bottom-left corner, a purple-handled comb lies flat across the table with its teeth directed left. The background includes a green chair, adding a touch of color to the setting. The soft lighting in the scene highlights the everyday nature of the objects while contributing to a relaxed, informal atmosphere.",
+    "input_images": [],
+    "output_image": "schene10.jpeg"
+  }

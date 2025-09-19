@@ -18,5 +18,4 @@ demonstrated compatative performance and highlights the emergent properties of
 efficient fine-tuning.
 
 ## Quick strart
-### [./docs/inference.md#requiremented-resources](https://github.com/VectorSpaceLab/OmniGen/blob/main/docs/inference.md#requiremented-resources)
-### create an enviroment please follow the [./docs/enviroment.md#enviroment-details](doc)
+### To create enviroment please follow the [./docs/enviroment.md#enviroment-details](https://github.com/MAXNORM8650/DEFT/blob/main/docs/enviroment.md)
