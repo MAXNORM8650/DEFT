@@ -61,6 +61,16 @@ Additional results and visualizations can be found at the following links:
 
 3. **InstT Objects Qualitative Results**: [https://anonymousinstobjets.netlify.app](https://anonymousinstobjets.netlify.app)
 
+## Acknowledgments
+
+We would like to acknowledge and thank the following repositories and works that made this research possible:
+
+- **[OmniGen](https://github.com/VectorSpaceLab/OmniGen)** - For the foundational OmniGen framework
+- **[DreamBench++](https://github.com/yuangpeng/dreambench_plus)** - For the comprehensive personalized image generation benchmark
+- **[PaRa: Personalizing Text-to-Image Diffusion via Parameter Rank Reduction](https://arxiv.org/abs/2406.05641)** - For insights on parameter-efficient personalization methods
+- **[PEFT (Parameter-Efficient Fine-Tuning)](https://github.com/huggingface/peft)** - For efficient fine-tuning implementations
+
+We appreciate the open-source community for making these valuable resources available.
 ## License
 This repo is licensed under the [Apache License 2.0](LICENSE). 
 
