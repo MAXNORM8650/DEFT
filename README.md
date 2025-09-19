@@ -43,6 +43,8 @@ accelerate launch --num_processes=1 finetune.py --model_name_or_path Shitao/Omni
  --decomposition_method qr --results_dir ~/PP
  ```
 Please refer to [docs/fine-tuning.md](docs/fine-tuning.md) for more details (e.g. full finetune).
+## Approch
+![Approch](./assets/_diagram.png)
 ## License
 This repo is licensed under the [Apache License 2.0](LICENSE). 
 
