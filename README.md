@@ -33,3 +33,12 @@ adapted_model = add_knowledge_injection_methods(adapted_model)
 adapted_model.save_pretrained("./knowledge_injection_adapter")
 print("Adapted model saved and loaded successfully!")
 ```
+## Training Omnigen using DEFT
+### Please use --use_injection in finetuning
+```bash
+accelerate launch --num_processes=1 finetune.py --model_name_or_path Shitao/OmniGen-v1 \
+ --batch_size_per_device 4 --condition_dropout_prob 0.01 --lr 1e-3 --use_injection --lora_rank 8 \
+ --json_file ./toy_data/toy_subject_data.jsonl --image_path ./toy_data/images --max_input_length_limit 18000 \
+ --keep_raw_resolution --max_image_size 1024 --gradient_accumulation_steps 1 --ckpt_every 100 --epochs 2000 --log_every 1 \
+ --decomposition_method qr --results_dir ~/PP
+ ```
