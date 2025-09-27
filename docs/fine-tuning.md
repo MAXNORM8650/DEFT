@@ -269,9 +269,6 @@ pipe = OmniGenPipeline.from_pretrained("checkpoint_path")  # e.g., ./results/toy
 ```
 
 
-
-
-
 ## LoRA fine-tuning
 LoRA fine-tuning is a simple way to fine-tune OmniGen with less GPU memory. To use lora, you should add `--use_lora` and `--lora_rank` to the command.
 
