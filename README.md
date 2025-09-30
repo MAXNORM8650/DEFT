@@ -1,4 +1,4 @@
-# DEFT
+# DEFT (![Paper](https://www.arxiv.org/abs/2509.22793))
 Emergent Properties of Efficient Fine-Tuning in Text-to-Image Models
 
 ![Emergent Properties of Efficient Fine-Tuning in Text-to-Image Models](assets/teaser.png)
