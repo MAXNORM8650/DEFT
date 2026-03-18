@@ -1,6 +1,10 @@
-# DEFT ([Paper](https://www.arxiv.org/abs/2509.22793))
-Emergent Properties of Efficient Fine-Tuning in Text-to-Image Models
-
+<div align="center">
+  <img src="assets/Tom_Moreno_scaled_10x_pngcrushed.jpg" alt="MedAgentSim Logo" width="100"/>
+  <p><i>DEFT: Decompositional Efficient Fine-Tuning for Text-to-Image</i></p>
+</div>
+<a href="https://www.arxiv.org/abs/2509.22793">
+  <img src="https://img.shields.io/badge/📝-Paper-blue" height="25">
+</a>
 ![Emergent Properties of Efficient Fine-Tuning in Text-to-Image Models](assets/teaser.png)
 
 ## Overview
