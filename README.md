@@ -1,6 +1,6 @@
 # DEFT: Decompositional Efficient Fine-Tuning for Text-to-Image
 <div align="center">
-  <p><i>DEFT: Decompositional Efficient Fine-Tuning for Text-to-Image</i></p>
+  <p><i>Mitigating catastrophic forgetting in large-scale text-to-image models through efficient fine-tuning</i></p>
 </div>
 <a href="https://www.arxiv.org/abs/2509.22793">
   <img src="https://img.shields.io/badge/📝-Paper-blue" height="25">
