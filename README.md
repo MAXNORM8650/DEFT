@@ -18,7 +18,7 @@ demonstrated compatative performance and highlights the emergent properties of
 efficient fine-tuning.
 
 ## Quick strart
-### To create enviroment please follow the [./docs/enviroment.md#enviroment-details](https://github.com/MAXNORM8650/DEFT/blob/main/docs/enviroment.md)
+### To create enviroment please follow the [./docs/enviroment.md](https://github.com/MAXNORM8650/DEFT/blob/main/docs/enviroment.md)
 
 ## Adding DEFT layer to pretrained model
 ```bash 
