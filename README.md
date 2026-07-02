@@ -6,6 +6,24 @@
   <img src="https://img.shields.io/badge/📝-Paper-blue" height="25">
 </a>
 
+## News 
+### DEFT is now integrated into Hugging Face PEFT! 🎉
+    You can try it directly from the PEFT source installation:
+
+```bash
+pip install "git+https://github.com/huggingface/peft"
+from peft import DeftConfig, get_peft_model
+model = ...  # Your model goes here
+deft_config = DeftConfig(
+    r=32,
+    alpha=64,
+    decomposition_method="relu",  # Use "qr" for image generation tasks
+)
+peft_model = get_peft_model(model, deft_config)
+```
+
+
+
 ![Emergent Properties of Efficient Fine-Tuning in Text-to-Image Models](assets/teaser.png)
 
 ## Overview
