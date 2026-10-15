@@ -11,7 +11,7 @@
     You can try it directly from the PEFT source installation:
 
 ```bash
-pip install "git+https://github.com/huggingface/peft"
+pip install peft
 from peft import DeftConfig, get_peft_model
 model = ...  # Your model goes here
 deft_config = DeftConfig(
