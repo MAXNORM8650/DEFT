@@ -7,7 +7,7 @@
 </a>
 
 ## News 
-### DEFT is now integrated into Hugging Face PEFT! 🎉
+### DEFT is now integrated into Hugging Face PEFT https://github.com/huggingface/peft/pull/3342! 🎉
     You can try it directly from the PEFT source installation:
 
 ```bash
